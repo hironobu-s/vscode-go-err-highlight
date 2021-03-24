@@ -12,7 +12,8 @@ This extension highlights the error variables such as `err` and `errCh` in your 
 ## Extension Settings
 
 You can define the highlight color of the error variables by adding editor.tokenColorCustomizations section to your `settings.js`.
-`
+
+```json
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -24,7 +25,8 @@ You can define the highlight color of the error variables by adding editor.token
       }
     ]
   }
-``
+```
+
 Calling out known issues can help limit users opening duplicate issues against your extension.
 
 ## Release Notes
