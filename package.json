@@ -1,7 +1,7 @@
 {
-    "name": "vscode-go-err-highlight",
-    "displayName": "vscode Go err highlight",
-    "description": "",
+    "name": "go-err-highlight",
+    "displayName": "Go err highlight",
+    "description": "Highlight an err variable in Go source code.",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.54.0"
@@ -10,16 +10,14 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "go",
-            "aliases": ["", "go"],
-            "extensions": [""],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "go",
-            "scopeName": "",
-            "path": "./syntaxes/go.tmLanguage.json"
-        }]
+        "grammars": [
+            {
+                "path": "./syntaxes/injection.json",
+                "scopeName": "source.go-err",
+                "injectTo": [
+                    "source.go"
+                ]
+            }
+        ]
     }
 }
