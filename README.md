@@ -26,9 +26,6 @@ You can define the highlight color of the error variables by adding editor.token
     ]
   }
 ```
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
 ## Release Notes
 
 
