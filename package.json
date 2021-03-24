@@ -1,6 +1,6 @@
 {
-    "name": "go-err-highlight",
-    "displayName": "Go err highlight",
+    "name": "go-err-highlighting",
+    "displayName": "Go err highlighting",
     "description": "Highlight an err variable in Go source code.",
     "version": "0.0.1",
     "publisher": "hiro",
