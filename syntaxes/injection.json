@@ -1,0 +1,11 @@
+{
+    "scopeName": "source.go-err",
+    "injectionSelector": "L:source.go -comment",
+    "patterns": [
+        {
+            "comment": "err variable",
+            "match": "\\b(err|err[A-Z][a-z]+)\\b",
+            "name": "keyword.err.go"
+        }
+    ]
+}
