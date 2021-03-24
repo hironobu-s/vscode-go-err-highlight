@@ -4,6 +4,9 @@
     "description": "Highlight an err variable in Go source code.",
     "version": "0.0.1",
     "publisher": "hiro",
+    "repository": {
+        "url": "https://github.com/hironobu-s/vscode-go-err-highlight"
+    },
     "engines": {
         "vscode": "^1.54.0"
     },
