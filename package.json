@@ -1,0 +1,25 @@
+{
+    "name": "vscode-go-err-highlight",
+    "displayName": "vscode Go err highlight",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "go",
+            "aliases": ["", "go"],
+            "extensions": [""],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "go",
+            "scopeName": "",
+            "path": "./syntaxes/go.tmLanguage.json"
+        }]
+    }
+}
