@@ -2,7 +2,7 @@
     "name": "go-err-highlighting",
     "displayName": "Go err highlighting",
     "description": "Highlight an err variable in Go source code.",
-    "version": "0.0.1",
+    "version": "1.0.2",
     "publisher": "hiro",
     "repository": {
         "url": "https://github.com/hironobu-s/vscode-go-err-highlight"
